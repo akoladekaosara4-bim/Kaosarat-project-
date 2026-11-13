@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description"
+    content="Student portfolio of Akolade Kaosara Abimbola, aspiring cybersecurity professional.">
+  <title>Academic Planner | Akolade Kaosara Abimbola</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">AKA</span><span>AKOLADE KAOSARA ABIMBOLA<span class="dot"></span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation"
+      aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="home.html">Home</a><a href="about.html">About Me</a><a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a><a href="planner.html">Academic Planner</a><a class="nav-cta"
+        href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero wrap">
+      <p class="eyebrow">04 — ACADEMIC PLANNER</p>
+      <h1>Plan your work.<br><em>Track your progress.</em></h1>
+      <p class="intro">A simple personal workspace for organising study tasks, coursework, revision, and learning goals.
+      </p>
+    </section>
+    <section class="wrap content-section planner-layout">
+      <div class="planner-copy">
+        <p class="eyebrow">STUDY WITH INTENTION</p>
+        <h2>Small steps make<br><em>steady progress.</em></h2>
+        <p>Use the task list to record what needs attention, mark completed work, and keep your learning priorities
+          visible.</p>
+        <ul class="planner-guides">
+          <li>Break large assignments into smaller actions.</li>
+          <li>Set realistic study goals for each week.</li>
+          <li>Review unfinished tasks and adjust your plan.</li>
+          <li>Make time for revision and practical exercises.</li>
+        </ul>
+      </div>
+      <div class="planner-box">
+        <div class="planner-head">
+          <div><small>MY STUDY WORKSPACE</small>
+            <h2>Academic task list</h2>
+          </div><span id="taskCount">0 tasks</span>
+        </div>
+        <form id="taskForm" class="task-form"><label class="sr-only" for="taskInput">New academic task</label><input
+            id="taskInput" maxlength="140" required placeholder="Add a study task or deadline…"><button class="button"
+            type="submit">Add task +</button></form>
+        <div class="filters"><button type="button" class="filter active" data-filter="all">All</button><button
+            type="button" class="filter" data-filter="active">To do</button><button type="button" class="filter"
+            data-filter="done">Completed</button></div>
+        <ul id="taskList" class="task-list">
+          <li class="empty">Add your first academic task to get started.</li>
+        </ul>
+        <p class="fine-print">Tasks are saved locally in this browser on this device.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">AKA</span><span><span
+            class="dot"></span></span></a>
+      <p>Learning with purpose. Building for a safer digital future.</p>
+    </div><small>© 2026 Akolade Kaosara Abimbola · Student Portfolio</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
